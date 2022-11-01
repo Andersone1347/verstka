@@ -300,3 +300,12 @@ footer span {
     align-items: center;
 }
 /* footer */
+
+@media screen and (max-width:1010px) {
+    .container {
+        max-width: 100%;
+    }
+    .fon-up {
+        max-width: 100%;
+    }
+}
