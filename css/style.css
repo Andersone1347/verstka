@@ -34,6 +34,7 @@ body {
 .fon-up {
     background-image: url(../img/Layer\ 1.png);
     background-size: cover;
+    min-width: 1110px;
 }
 
 /*       header       */
