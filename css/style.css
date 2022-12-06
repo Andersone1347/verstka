@@ -156,6 +156,7 @@ body {
 .call {
     background-color: #130e27;
     min-height: 120px;
+    min-width: 1110px;
 }
 .call_text_button {
     display: flex;
@@ -186,6 +187,7 @@ body {
 
 .pricing {
     background-color: #efefef;
+    min-width: 1110px;
 }
 
 .pricing_title {
@@ -280,6 +282,7 @@ body {
 /* footer */
 footer {
     background-color: #130e27;
+    min-width: 1110px;
 }
 footer p {
         font-size: 20px;
