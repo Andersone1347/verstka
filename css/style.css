@@ -53,6 +53,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .nav {
     display: flex;
@@ -306,10 +307,40 @@ footer span {
 /* footer */
 
 @media screen and (max-width:1010px) {
-    .container {
-        max-width: 100%;
+    .box__inner {
+    flex-wrap: wrap;
+    }
+    .container{
+        width: auto;
     }
     .fon-up {
         max-width: 100%;
     }
+    .call {
+        flex-wrap: wrap;
+        min-width: auto;
+    }
+    .cards {
+        flex-wrap: wrap;
+
+    }
+    .item{
+        max-height: auto;
+        min-width: auto;
+        margin: 5px;
+    }
+    .pricing {
+        min-width: auto;
+    }
+    .item:not(:first-child) {
+        margin-left: auto;
 }
+    .fon-up {
+        min-width: auto;
+    }
+    .nav {
+        flex-wrap: wrap;
+    }
+}
+
+/* кнопку и футер  */
