@@ -360,4 +360,8 @@ footer span {
     .item_services {
         margin: 15px;
     }
+    .call_btn {
+        margin: 40px 10px;
+        padding: 10px 30px;
+    }
 }
