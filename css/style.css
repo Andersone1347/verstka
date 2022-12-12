@@ -283,7 +283,6 @@ body {
 /* footer */
 footer {
     background-color: #130e27;
-    min-width: 1110px;
 }
 footer p {
         font-size: 20px;
@@ -344,3 +343,21 @@ footer span {
 }
 
 /* кнопку и футер  */
+
+@media screen and (max-width:768px) {
+    .menu__inner {
+        justify-content: center;
+    }
+    .text_header {
+        text-align: -webkit-center;
+    }
+    .services h2 {
+        text-align: center;
+    }
+    .cards {
+        display: block;
+    }
+    .item_services {
+        margin: 15px;
+    }
+}
