@@ -342,7 +342,16 @@ footer span {
     }
 }
 
+
+
+
+
 /* кнопку и футер  */
+
+
+
+
+
 
 @media screen and (max-width:768px) {
     .menu__inner {
@@ -364,4 +373,72 @@ footer span {
         margin: 40px 10px;
         padding: 10px 30px;
     }
+    .nav li {
+        margin: 5px;
+    }
 }
+
+
+
+
+/* about */
+
+.about_us {
+    font-size: 30px;
+} 
+
+.box__inner__about {
+    padding-bottom: 50px;
+}
+
+
+/* about */
+
+/* gallery */
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .slogan_gallery {
+    color:#c62314 ;
+    font-family:Montserrat Regular;
+    text-transform: uppercase; 
+    text-align: center;
+  }
+  
+ .slogan_gallery h2{
+    margin: 0;
+    text-align: center;
+    color: #777;
+ }
+
+  .call_gallery {
+    background-color: #130e27;
+    min-height: 120px;
+    min-width: 1110px;
+}
+/* gallery */
+
+
+
+
+
