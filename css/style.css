@@ -485,7 +485,7 @@ div.gallery {
 .fon-contact {
     background-image: url(../img/Layer\ 1.png);
     background-size: cover;
-    min-width: 1110px;
+
     min-height: 1000px;
 }
 
@@ -517,6 +517,7 @@ tr {
     width: 100%;
     table-layout: fixed;
     background: #fefefe;
+    opacity: 0.8;
   }
   
   table caption {
@@ -536,11 +537,14 @@ tr {
   }
   
   table tr:nth-child(even) {
-    background: #f0f0f0;
+    background: #FFBEB8;
+    opacity: 0.9;
   }
   
   table tbody tr:hover {
-    background: #d9e3e8;
+    background: #130e27;
+    opacity: 0.8;
+    color: wheat;
   }
   
   table th,
