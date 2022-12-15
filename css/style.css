@@ -646,4 +646,8 @@ font-size: 50px;
 .text_header_serv {
    
 }
+.gallery_serv{
+    display: flex;
+    justify-content: center;
+}
 /* service */
