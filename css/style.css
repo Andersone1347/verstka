@@ -400,7 +400,6 @@ footer span {
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
     width: 180px;
   }
   
@@ -649,5 +648,11 @@ font-size: 50px;
 .gallery_serv{
     display: flex;
     justify-content: center;
+}
+.gallery_photo {
+    margin: 5px;
+    border: 1px solid #ccc;
+
+    width: 180px;
 }
 /* service */
