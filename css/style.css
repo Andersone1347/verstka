@@ -529,6 +529,7 @@ tr {
   table thead{
     background: #130e27;
     border-bottom: none;
+    border-radius: 10px;
     color: #fff;
   }
   
@@ -599,10 +600,50 @@ tr {
   
 /* таблица */
 
-.svg_contact {
-    width: 50px;
+.fa-vk{
+    color: blue;
+}
+.fa-youtube {
+    color:#c62314
+}
+.fa-instagram {
+    color: fuchsia;
+}
+.fa-github {
+    color: black;
+}
 
+.fa {
+ font-size: 23px;
+}
+
+.fa:hover{
+    color: #efefef;
+    font-size: 26px;
+}
+
+.table_gallery {
+ 
 }
 
 /* contact */
 
+/* service */
+ .service_up1 {
+text-align: center;
+color: white;
+font-family: Montserrat Bold;
+font-size: 50px;
+
+}
+.service_up2 {
+    text-align: center;
+    color: #130e27;
+    font-family: Montserrat Bold;
+    font-size: 20px;
+    padding-bottom: 22px;
+    }
+.text_header_serv {
+   
+}
+/* service */
