@@ -651,8 +651,34 @@ font-size: 50px;
 }
 .gallery_photo {
     margin: 5px;
-    border: 1px solid #ccc;
-
-    width: 180px;
+    border: 10px solid #130e27;
+    width: 340px;
+    text-align: center;
 }
+div.gallery_serv img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc1 {
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #130e27;
+  }
+  div.desc2 {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #130e27;
+  }
+
+  .services_serv {
+    background-color: white;
+    min-height: 485px;
+    padding: 70px 0px;
+}
+
+
 /* service */
